@@ -6,7 +6,6 @@ const form = document.querySelector(".form-group");
       function deleteRecod(event) {
         const deleteButton = event.target;
         const record = deleteButton.parentNode;
-        console.log(record);
         record.remove();
       }
 
